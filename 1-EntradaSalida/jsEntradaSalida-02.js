@@ -8,7 +8,7 @@ function mostrar()
 	nombre = prompt("ingrese su nombre")
 	
 	
-	alert(nombre)   /*("Bienvenido al curso de ingreso")*/ 
+	alert(nombre)       /*("Bienvenido al curso de ingreso")*/
 
 }
 
