@@ -11,3 +11,16 @@ function mostrar()
 
 }
 
+/* 
+
+1)Reservo espacio para la guardar el nombre de usuario 
+
+Let nombre;
+   
+2)Le pido al usuario que ingrese la variable nombre,mediante un prompt
+
+nombre = prompt("Ingrese su nombre aqui");
+   
+3)Hacemos que el placeholder(txtIdNombre)Tenga el mismo valor que nuestra variable nombre 
+
+document.getElementById("txtIdNombre").value = nombre;  */
