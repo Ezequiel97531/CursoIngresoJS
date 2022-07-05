@@ -18,6 +18,31 @@ function mostrarAumento()
 	
 	importe = sueldo + aumento;
 
-	document.getElementById("txtIdResultado").value = importe
+	document.getElementById("txtIdResultado").value = "Tu importe total es de " + importe;
 }
 
+
+/*
+Forma de crear el programa con el usuario determinando el % de aumento.
+    let sueldo;
+
+	let importe;
+	
+	let aumento;
+
+	let Porcentaje
+
+    
+	sueldo =parseInt(document.getElementById("txtIdSueldo").value);
+	
+	Porcentaje = prompt("Ingrese su porcentaje")
+	
+	Porcentaje = parseInt(Porcentaje)
+	
+	aumento = sueldo * Porcentaje / 100;
+	
+	importe = sueldo + aumento;
+
+	document.getElementById("txtIdResultado").value = "Tu importe total es de " + importe;*/
+
+	

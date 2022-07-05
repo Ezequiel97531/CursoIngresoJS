@@ -22,4 +22,4 @@ function SacarResto()
 
 }
 
-// % para representar resto.
+// % para resto.

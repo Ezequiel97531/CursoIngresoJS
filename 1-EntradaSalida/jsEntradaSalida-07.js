@@ -23,6 +23,12 @@ function sumar()
 
 function restar()
 {
+	let numerouno;
+
+	let numerodos;
+   
+	let resultado;
+
 	numerouno=parseInt(document.getElementById("txtIdNumeroUno").value);
    
 	numerodos=parseInt(document.getElementById("txtIdNumeroDos").value);
@@ -34,17 +40,29 @@ function restar()
 
 function multiplicar()
 { 
+	let numerouno;
+
+	let numerodos;
+   
+	let resultado;
+
 	numerouno=parseInt(document.getElementById("txtIdNumeroUno").value);
    
 	numerodos=parseInt(document.getElementById("txtIdNumeroDos").value);
    
 	resultado = numerouno * numerodos 
    
-	alert("El producto es " + resultado);
+	alert("El Multiplicacion es " + resultado);
 }
 
 function dividir()
 {
+	let numerouno;
+
+	let numerodos;
+   
+	let resultado;
+
 	numerouno=parseInt(document.getElementById("txtIdNumeroUno").value);
    
 	numerodos=parseInt(document.getElementById("txtIdNumeroDos").value);
@@ -54,4 +72,4 @@ function dividir()
 	alert("El cociente es " + resultado);
 }
 
-//En este ejercicio no hace falta reescribir las variables
+//Es obligatorio volver a reescribir las variables,esto debido a que de normal general el programa no funcionaria si no lo hacemos.
