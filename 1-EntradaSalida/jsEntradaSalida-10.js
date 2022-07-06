@@ -22,7 +22,7 @@ Descuento = Importe * Porcentaje / 100
 
 Resultado = Importe - Descuento 
 
-document.getElementById("txtIdResultado").value = Resultado
+document.getElementById("txtIdResultado").value = "Su precio a pagar es de " + Resultado
 
 alert("Usted recibe " + Descuento + " De descuento")
 }
