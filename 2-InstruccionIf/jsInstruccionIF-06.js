@@ -11,7 +11,7 @@ function mostrar()
 		if(edad > 13 && edad < 17){
 			alert("Tu eres un adolescente")
 		}
-		if(edad > 18){
+		if(edad >= 18){
 			alert("Tu eres un adulto")
 		}
 	}
